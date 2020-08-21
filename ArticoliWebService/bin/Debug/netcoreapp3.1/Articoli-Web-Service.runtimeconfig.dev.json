@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/mariozora/.dotnet/store/|arch|/|tfm|",
+      "/Users/mariozora/.nuget/packages"
+    ]
+  }
+}

@@ -5,9 +5,8 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './jumbotron.component.html',
   styleUrls: ['./jumbotron.component.css']
 })
-export class JumbotronComponent implements OnInit {
-
-
+export class JumbotronComponent implements OnInit 
+{
   @Input() Titolo:string
   @Input() SottoTitolo:string
   @Input() Show: boolean=true
@@ -15,5 +14,4 @@ export class JumbotronComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

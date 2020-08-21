@@ -1,13 +1,9 @@
-<div>
-  <span>Logged user: {{utente}}</span>
-</div>
-
-<div style="text-align: center;">
-  <span>{{ saluti }}</span>
-  <br>
-  <span>{{title2}}</span>
-</div>
+<app-jumbotron [Titolo]="'Welcome to my Shop'" [SottoTitolo]="'Check my products'" [Show]="false"></app-jumbotron>
 
 <div>
-  Ciao {{utente}}. Clicca<a routerLink="/articoli">qui</a>
+  Hi {{utente}}. Click <a routerLink="/articoli">here </a>to see all availables products!
+  <button type="button" (click)="getSaluti()" class="btn btn-primary">Saluti</button>
 </div>
+<h2>
+  {{messaggio}}
+</h2>
